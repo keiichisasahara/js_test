@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ポテパン</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <button onclick="clickButton(this)">10</button>
+</body>
+</html>
+
+<script>
+    function clickButton(button) {
+        let number = button.innerHTML;
+        document.write(`${number}の2乗は${number * number}です。`);
+    }
+</script>
